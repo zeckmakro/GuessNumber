@@ -1,0 +1,32 @@
+:root {
+    --white: #fafafa;
+    --blue:#00348a;
+    --blue-light:#0bbbd6;
+     
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+
+}
+
+body {
+    width: 100%; /*largura */
+    height: 100vh; /* altura*/
+    font-family: 'ubuntu', sans-serif;
+  
+
+    display: flex;
+    flex-direction: column; /* em colunas*/
+    align-items: center;/* alinha os itens no centro */
+    justify-content: space-between;
+
+}
+
+a {
+text-decoration: none;
+
+}
