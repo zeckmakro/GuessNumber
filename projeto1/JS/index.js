@@ -67,6 +67,7 @@ function handleSubmit(e) {
     else if(numberDraw > kick){
 
       GuessNumber.incorrectAnswer('O numero é maior!');
+      CustomElementRegistry
  }
 };
 
